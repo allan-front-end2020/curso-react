@@ -1,26 +1,22 @@
 import React from 'react';
-import Dados  from './Dados';
-import Alunos from './Alunos';
+import Dados from './Dados'
 
 export default function Corpo(){
-     const cnl='CFB cursos'
-     const yt='Yt cbf-curso de react'
-     const crs='REACT'
+    const canal ='allan tavares'
+    const youtube =' Allan tavares'
+    const curso =' allan  douglas santos tavares'
+     
 
     return(
      <section>
+     <Dados
+       canal={canal}
+       youtube={youtube}
+       curso={curso}
 
-       <h2>Manipulando Props</h2>
-       <Dados 
-       canal={cnl}
-       youtube={yt}
-       curso={crs}
-       />
-       <Alunos
-       aluno1=' allan tavares'
-       aluno2=' rodrigo santana'
-       aluno3=' kurt cobaim'
      />
+       
+     
      </section>
 
     )

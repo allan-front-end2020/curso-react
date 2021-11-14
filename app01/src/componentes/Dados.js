@@ -1,12 +1,13 @@
 import React from 'react';
 
 
-export default function Dados(prosp){
+
+export default function Dados(props){
     return(
      <section>
-       <p>Canal:{prosp.canal}</p>
-       <p>Youtube:{prosp.youtube}</p>
-       <p>Curso:{prosp.curso}</p>
+       <p>Canal:{props.canal}</p>
+       <p>Youtube:{props.youtube}</p>
+       <p>Curso:{props.curso}</p>
       
      </section>
 
