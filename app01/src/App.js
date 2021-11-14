@@ -1,32 +1,22 @@
-import React from 'react';
-import Header from './componentes/Header';
-import Corpo  from './componentes/Corpo';
-import Alunos from './componentes/Alunos';
-import Botao from './componentes/Botao';
-
-
+import React , {useState}from 'react';
+import './App.css'
 
 
 
 export default function App (){
 
-  const aln1 ='luiz tavares'
-  const aln2 ='maria souza'
-  const aln3 ='fernando lucio'
-  const aln4 ='valentina aguiar'
+
+  const [num,setNum]=useState(1)
+  
+
    
   return( 
     <>
-     <Header/>
-     <Corpo/>
-     <Alunos 
-       aln1={aln1}
-       aln2={aln2}
-       aln3={aln3}
-       aln4={aln4}
-      
-     />
-     <Botao/>
+      <p>Quantidade de produtos {num}</p>
+     <p>valor do state:{num}</p>
+     <button className='botao' onClick={()=>setNum(num+1)}>Adicionar + </button>
+
+     <button className='botao'  onClick={()=>setNum(num-1)}>Tirar - </button>
      
     </>
   )

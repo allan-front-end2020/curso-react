@@ -15,5 +15,7 @@
   font-size: 80px;
 }
 .botao {
-  color: black;
+  width: 300px;
+  background-color: blue;
+  color: red;
 }

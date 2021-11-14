@@ -5,11 +5,11 @@ import '../App.css';
 
 
 export default function Botao (){
+
+
     return(
        <>
-     <Button type="primary" icon={<SearchOutlined />} className='botao'>
-      Search
-      </Button>
-        </>
+     
+       </>
     )
 }
