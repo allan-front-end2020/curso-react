@@ -1,11 +1,17 @@
 import React from 'react';
+import '../App.css';
 
 
 export default function Header (){
-    return(
-     <header>
 
-       <h1>Manipulando Pros</h1>
+
+
+    return(
+     <header className='texte'>
+
+       <h1 >Css em react</h1>
+       <h2> Aprendendo React</h2>
+       <p> React </p>
       
      </header>
 
