@@ -1,7 +1,10 @@
 import React from 'react';
 import Header from './componentes/Header';
 import Corpo  from './componentes/Corpo';
-import Alunos from './componentes/Alunos'
+import Alunos from './componentes/Alunos';
+import Botao from './componentes/Botao';
+
+
 
 
 
@@ -21,9 +24,9 @@ export default function App (){
        aln2={aln2}
        aln3={aln3}
        aln4={aln4}
-
-       
+      
      />
+     <Botao/>
      
     </>
   )
