@@ -2,9 +2,20 @@ import React from 'react';
 import Dados from './Dados'
 
 export default function Corpo(){
-    const canal ='allan tavares'
-    const youtube =' Allan tavares'
-    const curso =' allan  douglas santos tavares'
+    const canal =()=>{
+      return'Aprendendo React'
+    }
+    const youtube =()=>{
+      return'treinando sem parar'
+    }
+    const curso=()=>{
+      return' Não pode desanimar'  
+    }
+
+
+    const somar =(v1, v2)=>{
+      return v1+v2
+    }
      
 
     return(
@@ -13,6 +24,8 @@ export default function Corpo(){
        canal={canal}
        youtube={youtube}
        curso={curso}
+       
+       somar={somar}
 
      />
        
