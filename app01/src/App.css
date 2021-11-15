@@ -1,21 +1,3 @@
-.texte {
-  color: aqua;
-  text-align: center;
-  font-size: 35px;
-}
-
-.texte h1 {
-  color: aqua;
-  text-align: center;
-  font-size: 50px;
-}
-.texte h2 {
-  color: aqua;
-  text-align: center;
-  font-size: 80px;
-}
-.botao {
-  width: 300px;
-  background-color: blue;
-  color: red;
+h1 {
+  color: white;
 }
